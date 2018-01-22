@@ -1,0 +1,5 @@
+utiliser curl -X PUT OU POST pour ajout de donnée
+
+install un nouveau module
+
+ng g m "recherche_trajet_date"

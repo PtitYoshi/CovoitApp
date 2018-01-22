@@ -1,0 +1,6 @@
+
+[{"mail":"mamar.merabi@gmail.com","mdp":"momo","num":"0695300353","nom":"merabi","prenom":"mamar","age":22,"adresse":"59 rue de saint firmin","ville":"Le creusot","actif":0,"type":"admin"},
+{"mail":"arsene.lupin@gmail.com","num":"0654413041","nom":"lupin","prenom":"arsene","age":77,"adresse":"60 rue victor hugo","ville":"Nimes","actif":0,"type":"user"},
+{"mail":"jean.pierre@gmail.com","num":"0654413041","nom":"jean","prenom":"pierre","age":78,"adresse":"66 rue victor hugo","ville":"Montpellier","actif":1,"type":"user"}]
+
+

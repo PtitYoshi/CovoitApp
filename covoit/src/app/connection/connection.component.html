@@ -1,0 +1,36 @@
+<div *ngIf="!email; else forminfo">
+<div>
+<form [formGroup]="myForm" (ngSubmit)="Addpost(myForm.value)">
+      <div>
+        <div>
+          <h1> connection </h1> <br/>
+            <label>adresse email</label>
+            <input type="text" formControlName="email"><br/>
+            <div *ngIf="!myForm.controls['email'].valid && myForm.controls['email'].touched">{{message_alert}}</div>
+            <label>mot de passe</label>
+            <div *ngIf="!myForm.controls['mdp'].valid && myForm.controls['mdp'].touched">{{message_alert}}</div>
+            <input type="password" formControlName="mdp"><br/>
+            <input type="submit" value="Submit_Form" [disabled]="!myForm.valid" >
+          </div>
+      </div>
+  
+    </form>
+  </div>
+</div>
+  
+  
+    <div class="from-container">
+      <div class="row columns">
+        <h1>Bienvenue</h1>
+        <div>
+          <ul>
+            <li *ngFor="let u of user">
+              {{u.mail}}
+              {{u.nom}}
+              {{u.prenom}}
+             
+            </li>
+          </ul>
+        </div>
+    </div>
+  

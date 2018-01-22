@@ -1,0 +1,9 @@
+{
+    "users": [
+        { "_id": 1, "nom": "De Sousa", "prenom": "Damien", "email": "desousadamien30@gmail.com", "mdp":"momo", "droit": 1, "numTel": "0750400987", "note": 5 },
+        { "_id": 2, "nom": "Simon", "prenom": "Muriel", "email": "simonmuriel@gmail.com","mdp":"momo", "droit": 1, "numTel": "0750400988", "note": 5 },
+        { "_id": 3, "nom": "Latger", "prenom": "Benjamin", "email": "latgerbenjamin@gmail.com","mdp":"momo", "droit": 1, "numTel": "0750400989", "note": 5 },
+        { "_id": 4, "nom": "Volle", "prenom": "Baptiste", "email": "vollebaptiste@gmail.com","mdp":"momo", "droit": 1, "numTel": "0750400990", "note": 5 },
+        { "_id": 5, "nom": "De Sousa", "prenom": "Caroline", "email": "desousacaroline@gmail.com","mdp":"momo", "droit": 1, "numTel": "0750400991", "note": 5 }
+    ]
+}

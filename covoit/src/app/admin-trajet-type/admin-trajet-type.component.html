@@ -1,0 +1,35 @@
+<div *ngIf="!isvalid; else forminfo">
+    <form [formGroup]="myForm" (ngSubmit)="Addpost(myForm.value)">
+      <div>
+        <div>
+          <h1> jout trajet type </h1> <br/>
+            <label>ville de départ</label>
+            <input type="text" formControlName="villed"><br/>
+            <div *ngIf="!myForm.controls['villed'].valid && myForm.controls['villed'].touched">{{message_alert}}</div>
+            <label>ville d'arrivée</label>
+            <div *ngIf="!myForm.controls['villea'].valid && myForm.controls['villea'].touched">{{message_alert}}</div>
+            <input type="text" formControlName="villea"><br/>
+            <label>distance </label>
+            <div *ngIf="!myForm.controls['distance'].valid && myForm.controls['distance'].touched">{{message_alert}}</div>
+            <input type="text" formControlName="distance"><br/>
+            <label>temps</label>
+            <div *ngIf="!myForm.controls['temps'].valid && myForm.controls['temps'].touched">{{message_alert}}</div>
+            <input type="text" formControlName="temps"><br/>
+            <input type="submit" value="Submit_Form" [disabled]="!myForm.valid" >
+          </div>
+      </div>
+  
+    </form>
+  </div>
+  
+  <div>
+    <ul>
+      <li *ngFor="let trajet of trajets">
+        {{trajet.mail}}
+        {{trajet.villea}}
+        {{trajet.villed}}
+        {{trajet.distance}}
+        {{trajet.temps}}
+      </li>
+    </ul>
+  </div>

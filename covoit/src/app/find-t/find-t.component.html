@@ -1,0 +1,27 @@
+<form (ngSubmit) ="onSubmit()">
+
+  <input type="text" name="villeD" id="villeD" placeholder="ville de départ" [(ngModel)]="villeD" [ngModelOptions]="{standalone: true}">
+<br/><input type="text" name="villeA" id="villeA" placeholder="ville d'arrivée"[(ngModel)]="villeA"[ngModelOptions]="{standalone: true}">
+<br/><input type="date"name="dates" id="dates" [(ngModel)]="dates" [ngModelOptions]="{standalone: true}">
+
+  <input type="submit" value="recherche">
+</form>
+
+<table ng-controller="find-t">
+    <tr>
+        <td>Ville d'arrivée</td>
+        <td>ville de départ</td>
+        <td>date</td>
+        <td>prix</td>
+    </tr>
+    
+      <tr *ngFor="let r of answer">
+        <td> {{r.villeD}}</td>  
+        <td>{{r.villeA}}</td>
+        <td>{{r.dateT}}</td> 
+        <td>{{r.prix}}</td> 
+        <td>{{r.temps}}</td> 
+      </tr>
+    
+    <tr>{{Reponse}}</tr>
+ </table>

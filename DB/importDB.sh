@@ -1,0 +1,2 @@
+"C:\Program Files\MongoDB\Server\3.4\bin\mongoimport.exe" --db covoiturage --collection user --drop --file C:\Users\Damien\mongoDB\covoiturage\user.json
+"C:\Program Files\MongoDB\Server\3.4\bin\mongoimport.exe" --db covoiturage --collection trajet --drop --file C:\Users\Damien\mongoDB\covoiturage\trajet.json

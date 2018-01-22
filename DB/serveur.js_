@@ -1,0 +1,9 @@
+var http = require('http');
+
+var server = http.createServer(function(request,reponse)
+{
+	reponse.end('hello world node.js')
+});
+server.listen(8888);
+
+

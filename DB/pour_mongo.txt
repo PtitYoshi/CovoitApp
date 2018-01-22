@@ -1,0 +1,12 @@
+15:34
+
+"C:\Program Files\MongoDB\Server\3.6\bin\mongoimport.exe" --db covoiturage --collection users --drop --file "C:\Users\will\Desktop\projet_web\DB\users.json" --jsonArray
+15:34
+
+"C:\Program Files\MongoDB\Server\3.6\bin\mongoimport.exe" --db covoiturage --collection participant--drop --file "C:\Users\will\Desktop\projet_web\DB\participant.json" --jsonArray
+15:34
+
+"C:\Program Files\MongoDB\Server\3.6\bin\mongoimport.exe" --db covoiturage --collection trajet--drop --file "C:\Users\will\Desktop\projet_web\DB\trajet.json" --jsonArray
+15:34
+
+"C:\Program Files\MongoDB\Server\3.6\bin\mongoimport.exe" --db covoiturage --collection trajet_type --drop --file "C:\Users\will\Desktop\projet_web\DB\trajet_type.json" --jsonArray
